@@ -1,0 +1,390 @@
+*{
+    font-family: 'Merriweather', serif;
+}
+/*menu------------------------------------------*/
+.menu{
+    position:fixed;
+    width:100%;
+    z-index: 9999;
+    
+    
+    
+}
+
+.navbar-nav{
+    margin-left:auto;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #4facfe 50%, #00f2fe 100%);
+    
+    
+}
+
+.enlace{
+    font-weight:bold;
+    font-size:25px;
+    color:white;
+    text-decoration: none;
+}
+
+.navbar-nav{
+    width:50%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.active{
+   
+   color:blue;
+}
+
+.enlace:hover{
+    color:blue;
+}
+
+
+
+
+/*home-----------------------------------------*/
+.home{
+    height:100vh;
+    background-image: linear-gradient(to top, #30d0d0a1 0%, #3308679f 100%),url("fotos/codigolicencia.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    height:700px;
+}
+
+.contenedorNombre{
+    padding-top:150px;
+    padding-left:100px;
+  
+    
+    
+}
+
+.almost{
+    color:red;
+    font-size:15px;
+}
+
+.tituloNombre{
+    color:white;
+}
+
+
+
+
+
+/*about--------------------------------------------*/
+
+
+.custom-shape-divider-top-1665823680 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    background-color: rgb(41, 20, 160);
+    margin-top:200px ;
+}
+
+.custom-shape-divider-top-1665823680 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1665823680 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.custom-shape-divider-top-1665823680abajo {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    background-color: #FFFFFF;
+    margin-bottom:200px;
+}
+
+.custom-shape-divider-top-1665823680abajo svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1665823680abajo .shape-fill {
+    fill: rgb(41, 20, 160);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about{
+    padding:30px;
+    background-color: rgb(41, 20, 160);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    
+}
+
+.fotoMia{
+    border-radius:50%;
+}
+
+.contenido-about{
+    display:flex;
+    justify-content: space-around;
+    padding:20px;
+    color:white;
+}
+
+.titulo-about{
+    color:white;
+}
+
+
+
+
+/*skills---------------------------------------------------*/
+
+.titulo_skills{
+    
+    background-color: #f59622;
+    color:white;
+    border-radius:25px ;
+    border: 3px solid white;
+    
+}
+
+
+.skills{
+    /*height:120vh;*/
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    padding:30px;
+    margin-bottom: 200px;
+}
+
+.cartaLenguaje{
+    color:white;
+    font-size: 30px;
+}
+
+
+/*habilities---------------------------------------------------*/
+
+.habilities{
+    padding:30px;
+    background-color: rgb(41, 20, 160);
+    color:white;
+    
+    
+   
+}
+.habilities1{
+    padding:30px;
+    background-color: rgb(41, 20, 160);
+    margin-top:-50px;
+    color:white;
+
+    
+   
+}
+
+.habilidad{
+    border:3px solid white;
+    border-radius:25px;
+    margin-bottom:50px;
+    padding: 20px;
+
+    
+
+   
+}
+
+.iconoLenguaje{
+    font-size:80px;
+}
+
+.iconoHability{
+    font-size: 130px;
+}
+
+
+/*projects----------------------------------------------*/
+
+.projects{
+    padding:30px;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    margin-top: 200px;
+    margin-bottom: 200px;
+    
+}
+
+.cartaProyecto{
+    background-color: #f59622;
+    color:white;
+    margin:10px;
+    padding:10px;
+    border-radius: 15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ov-btn-grow-skew {
+    background: #fff; /* color de fondo */
+    color: rgb(41, 20, 160); /* color de fuente */
+    border: 2px solid rgb(41, 20, 160); /* tamaño y color de borde */
+    padding:4px;
+    border-radius: 3px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    text-decoration:none;
+    text-align: center;
+  }
+  .ov-btn-grow-skew:hover {
+    color: #fff;/* color de fuente hover */
+  }
+  .ov-btn-grow-skew::after {
+    content: "";
+    background: rgb(41, 20, 160); /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+  }
+  .ov-btn-grow-skew:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+  }
+
+
+
+
+/*contact-------------------------------------------------*/
+
+
+.contact{
+    
+    background-color: rgb(41, 20, 160);
+    padding:30px;
+    color:white;
+}
+
+.tipoRedSocial{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tipoRedSocial>p{
+    margin-top:15px;
+}
+
+.redesSociales{
+    
+   margin-top:20px;
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+.redesSociales a{
+    text-decoration: none;
+    font-size:70px;
+    background-color:rgb(45, 238, 238);
+    color:white;
+    padding:10px;
+    border-radius:50%;
+    transition: all .4s ease-in-out;
+}
+
+.redesSociales a:Hover{
+    transform:scale(1.3);
+
+}
+
+.footer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-around;
+    
+    margin-top:100px;
+}
+
+.aviso{
+    background-color: rgba(255, 0, 0, 0.664);
+    padding:10px;
+    color:white;
+    font-size:20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.nombreFinal{
+   
+    margin-top:55px;
+}
+
+.botonFormulario{
+    display:flex;
+    justify-content: center;
+}
+
+
+
+
+.custom-shape-divider-top-1666440750 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    background-color: rgb(41, 20, 160);
+    height:80px;
+}
+
+.custom-shape-divider-top-1666440750 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1666440750 .shape-fill {
+    fill: white;
+}
+
